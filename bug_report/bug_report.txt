@@ -1,0 +1,14 @@
+Summary: Error message 'Confirm password is required' is displayed on the incorrect place on the Portal > Page > 
+Section > Input field.
+
+
+Steps to reproduce:
+1. Go to the Page > Section > Input field and make sure the input field is enabled.
+2. Enter '998' value and press 'Submit' button.
+
+
+Expected results:
+Value '998' should not be saved. Error message "can't do it" should be displayed above input field.
+
+Actual result:
+Value '998' is not saved. Error message "can't do it" is displayed below input field.
