@@ -1,0 +1,19 @@
+Title: Verify that saved values of input fields can’t be more than 999.
+
+Test Case Objective:
+Check that values of input fields can’t be more than 999.
+
+Test Setup:
+User with active account.
+
+Steps:
+1. Go to the Page > Section > Input field and make sure the input field is enabled
+2. Enter '998' value and press 'Submit' button.
+3. Enter '999' value and press 'Submit' button. 
+4. Enter '1000' value and press 'Submit' button.
+
+Expected results:
+1. Input field is enabled.
+2. Value '998' is not saved. Error message "can't do it" is displayed above input field.
+3. Value '999' is saved and displayed into user's account.
+4. Value '1000' is not saved. Error message "can't do it" is displayed above input field.
